@@ -3,7 +3,7 @@
   "version": "1.0.12",
   "description": "A React component providing a visual emoji picker, similar to Slack's",
   "repository": "https://github.com/chadoh/react-emoji-picker",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
