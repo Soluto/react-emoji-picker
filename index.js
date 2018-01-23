@@ -50,11 +50,6 @@ function filterByCategory(opts) {
 module.exports = React.createClass({
   displayName: 'EmojiPicker',
   mixins: [ReactEmoji],
-  propTypes: {
-    query: React.PropTypes.string,
-    doGrabKeyPress: React.PropTypes.bool,
-    allowHover: React.PropTypes.bool,
-  },
   getDefaultProps: function() {
     return {
       doGrabKeyPress: true,
