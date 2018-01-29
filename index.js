@@ -3,6 +3,7 @@
 var React = require('react');
 var ReactEmoji = require('react-emoji');
 var emojiMap = require('./lib/emojiMap');
+var createReactClass = require('create-react-class');
 
 function touchDevice() {
   return "ontouchstart" in document.documentElement;
@@ -47,7 +48,7 @@ function filterByCategory(opts) {
   return opts.emoji.category === opts.category
 }
 
-module.exports = React.createClass({
+module.exports = createReactClass({
   displayName: 'EmojiPicker',
   mixins: [ReactEmoji],
   getDefaultProps: function() {
